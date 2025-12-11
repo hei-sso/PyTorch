@@ -28,7 +28,7 @@ def game():
             print("이미 채워져 있습니다.\n어디로 이동할까요?")
             continue
 
-                if count >= 5:
+        if count >= 5:
             if boarder['1'] == boarder['2'] == boarder['3'] != ' ':
                 visual_Board(boarder)
                 print("\n게임 종료.\n")
